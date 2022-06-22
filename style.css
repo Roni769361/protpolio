@@ -1,4 +1,5 @@
 body{
+    margin: 0%;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -20,4 +21,65 @@ h1{
 .top_left_right img{
     width: 100%;
     
+}
+.top_bacgImage{
+    background-repeat: no-repeat;
+    background-image: url("imag/top-banner.png");
+}
+section{
+    height: 500px;
+    padding: 100px;
+}
+
+.button{
+    border: 1px solid greenyellow;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, Tomato);
+    padding: 10px 20px;
+    color: aliceblue;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.sec_sec{
+    font-size: 30px;
+}
+.top_bacgImage2{
+    background-repeat: no-repeat;
+    background-image: url("imag/dream-bg.png");
+    background-position: right;
+}
+p{
+    color: darkgray;
+}
+
+.half_sec{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.single_expereince{
+    box-shadow: 10px 10px 40px grey;
+    height: 80%;
+    border-radius: 5px;
+}
+.experience{
+    background-image: url("imag/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full_stock{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, Tomato);
+    border-image-slice: 1;
+}
+#full_stock2{
+    border-left: 7px solid;
+    border-image: linear-gradient(145deg, BlueViolet, Cornsilk);
+    border-image-slice: 1;  
+
+}
+footer{
+    text-align: center;
 }
